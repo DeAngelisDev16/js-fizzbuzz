@@ -19,11 +19,20 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 for(let index = 1; index <= 100; index++ ){
     if (index % 3 === 0){
         console.log('Fizz');
-    } else if (index % 5 === 0){
+    } else if (index % 5 === 0) {
         console.log('Buzz');
-    } else {
+       
+    } else  {
         console.log(index);
     }
+
+    if (index % 3 === 0 && index % 5 === 0 ){
+        console.log('FizzBuzz');
+        
+    }
+     
+        
+    
     
 }
     
